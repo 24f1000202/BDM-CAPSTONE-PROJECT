@@ -5,30 +5,30 @@ This project presents a data-driven financial risk assessment of a fleet-based c
 🔍 Problem Scope
 
 The business faced:
-High EMI obligations affecting liquidity
-Heavy revenue concentration among top clients
-GST mismatches and data integrity gaps
+1.High EMI obligations affecting liquidity
+2.Heavy revenue concentration among top clients
+3.GST mismatches and data integrity gaps
 
 📊 Analytical Framework
 
-The analysis integrates two structured datasets (fleet financing + sales/GST records) and implements:
-Vehicle-level DSCR modeling under pessimistic, base, and optimistic revenue scenarios
-Client concentration analysis using Pareto analysis, ABC classification, and Herfindahl–Hirschman Index (HHI)
-GST anomaly detection using statistical deviation thresholds (±2 standard deviation rule)
-Risk tier classification for decision-oriented intervention
+1.The analysis integrates two structured datasets (fleet financing + sales/GST records) and implements:
+2.Vehicle-level DSCR modeling under pessimistic, base, and optimistic revenue scenarios
+3.Client concentration analysis using Pareto analysis, ABC classification, and Herfindahl–Hirschman Index (HHI)
+4.GST anomaly detection using statistical deviation thresholds (±2 standard deviation rule)
+5.Risk tier classification for decision-oriented intervention
 
 🛠 Tech Stack
 
-Python (pandas, numpy, matplotlib)
-Statistical modeling
-Data cleaning & preprocessing
-React-based interactive dashboard
+1.Python (pandas, numpy, matplotlib)
+2.Statistical modeling
+3.Data cleaning & preprocessing
+4.React-based interactive dashboard
 
 Deployed on Vercel
 
 🌐 Interactive Prototype
 An interactive financial stress simulator was built to allow scenario-based testing of:
-Revenue contraction
-EMI stress
-Client loss impact
-GST compliance risk
+1.Revenue contraction
+2.EMI stress
+3.Client loss impact
+4.GST compliance risk
